@@ -107,7 +107,7 @@ import {
         setChats([data, ...chats]);
         onClose();
         toast({
-          title: "New Group Chat Created!",
+          title: "New Group Chat has been Created!",
           status: "success",
           duration: 5000,
           isClosable: true,
