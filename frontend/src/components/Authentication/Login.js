@@ -106,14 +106,19 @@ const Login = () => {
       </Button>
       <Button
         variant="solid"
-        colorScheme="red"
+        colorScheme="green"
         width="100%"
+        height="50%"
         onClick={() => {
           setEmail("guest@example.com");
           setPassword("123456");
         }}
       >
-        Get Guest User Credentials
+         Guest User Credentials <br></br>
+        Email : guest@example.com<br></br>
+        Password : 123456
+        <br></br>
+        
       </Button>
     </VStack>
   );
